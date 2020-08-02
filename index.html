@@ -9,7 +9,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131746881-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-131746881-1');
@@ -60,7 +63,7 @@
 
           <a class="page-link" href="publications/index.html">publications</a>
 
-          <a class="page-link" href="blog/index.html">blog</a>
+          <a class="page-link" href="writing/index.html">writing</a>
 
 
 
@@ -96,66 +99,31 @@
 
 
           </div>
-          <p>Hi! I am Aviral; people call me Avi. I am a graduate student at Boston University, living in the Greater
-            Boston Area.
-            Currently, I am pursuing research on <a>RUML</a>, and at
-            improving state management of streaming engines like <a>Apache Flink</a>.
-            I will be joining the Redhat's AI team as a Data Engineer in the coming summer.</p>
+          <p>Hi! I am Aviral. I love building data systems that act as engines to fuel the higher analytics:
+            Machine Learning, Business Intelligence and AI. Someday, I am sure that I will give this world a tool
+            as impactful as some of the best ones: RocksDB, DynamoDB, Spark, Hadoop, Airflow, K8s. I am an ardent
+            believer of
+            Agile methodology, and try to follow it not in just software engineering but in most of my day to day life.
+
+          </p>
+          <p>
+            Currently, I am working as a Data Engineering Intern at Redhat, in the AICoE team. My primary work includes
+            making the data storage more efficient to reduce costs, improving the data access so as to
+            empower the AI and ML engineers in the organisation.
+          </p>
+          <p>
+            I love Distributed Systems in general. Currently, I fill my weekends and curiosity by working with Dr Vasia
+            to
+            reduce the overhead incurred during stateful streaming in Apache Flink.
+          </p>
           <p>Earlier, I was involved in setting up
             the data infrastructure at Atlan. My preliminary work included building a Data Repository and building ETL
             workflows for visualization platforms.</p>
-          <p>I am deeply fascinated by distributed systems. I enjoy
-            playing soccer and cricket, listening to tunes ranging from Hans Zimmer to hip-hop.</p>
-          <p>
-            I am always interested in new adventures, so please feel free to use any of the social links below to
-            contact me.</p>
+          <p>Few activities for my survivial: soccer, cricket, <a
+              href="https://open.spotify.com/user/9znavuum5iw36evw9959dwlgn?si=QTUvbYzoQZKmMf23hsdJ2A"
+              target="_blank">music</a>, <a href="reading/reading.html">reading</a>, and of
+            course, <a href="writing/index.html">writing</a>.</p>
         </article>
-
-
-        <!--
-
-<div class="news">
-  <h2>news</h2>
-  
-    <table>
-    
-    
-      <tr>
-        <td class="date">Jan 15, 2016</td>
-        <td class="announcement">
-          
-            A simple inline announcement with Markdown emoji! :sparkles: :smile:
-
-          
-        </td>
-      </tr>
-    
-      <tr>
-        <td class="date">Nov 7, 2015</td>
-        <td class="announcement">
-          
-            <a class="news-title" href="/news/announcement_2/">A long announcement with details</a>
-          
-        </td>
-      </tr>
-    
-      <tr>
-        <td class="date">Oct 22, 2015</td>
-        <td class="announcement">
-          
-            A simple inline announcement.
-
-          
-        </td>
-      </tr>
-    
-    </table>
-  
-</div>
-
-!-->
-
-
 
 
         <div class="social">
@@ -228,10 +196,15 @@
   <!-- Google Analytics -->
   <script>
     (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
         (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
 
     // ga('create', 'UA-766119790-1', 'auto');
