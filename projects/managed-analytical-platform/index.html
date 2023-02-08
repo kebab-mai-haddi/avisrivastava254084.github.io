@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131746881-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131746881-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Aviral Srivastava | Managed Graph Analytical Database href = "/" </title>
+    <meta name="description" content="Personal website of Aviral Srivastava">
+
+    <link rel="shortcut icon" href="../../assets/img/ProfessionalPhoto.jpg">
+
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="canonical" href="index.html">
+</head>
+
+
+<body>
+
+    <header class="site-header">
+
+        <div class="wrapper">
+
+
+            <a href="../../index.html">
+                <span class="site-title">
+                    <strong>Aviral</strong> Srivastava
+                </span>
+                <nav class="site-nav">
+                    <div class="trigger">
+                        <!-- About -->
+                        <a class="page-link" href="../../index.html">about</a>
+                        <!-- Resume -->
+                        <a class="page-link" target="_blank"
+                            href="../../assets/documents/Aviral_Srivastava_Resume.pdf">resume</a>
+                        <!-- Pages -->
+                        <a class="page-link" href="../writing/index.html">writing</a>
+                        <a class="page-link" href="../index.html">projects</a>
+                        <a class="page-link" href="../../publications/index.html">publications</a>
+                    </div>
+                </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <div class="page-content">
+        <div class="wrapper">
+            <div class="post">
+
+                <header class="post-header">
+                    <h1 class="post-title">Managed Graph Analytical Database</h1>
+                    <h5 class="post-description"></h5>
+                </header>
+
+                <article class="post-content RoboTutor clearfix">
+                    <p>
+                        <em>Manager and Tech Leads: </em>
+                        <a href="https://www.linkedin.com/in/annjana/">Annjana R</a>, <a
+                            href="https://www.linkedin.com/in/piotr-gwizdala-6598471b//">Piotr G</a>, <a
+                            href="https://www.linkedin.com/in/jillian-crossley-27694539/">Jillian Crossley</a>
+                    </p>
+
+                    <p>Product teams like Recommendations, Search, Timelines, Flygraph (internal knowledge graph) and
+                        other critical features depend on the Graph Storage team. Almost all the data on Twitter is
+                        Graph data (who follows whom, who mutes whom, who likes what, etc.).
+
+                        At Twitter, data teams had to undergo a lot of infrastructure setup and maintenance to interact
+                        with graph data. Most of the analytical and Machine Learning work is performed on the graph
+                        datasets as well. Thus, it was natural to provide something to these product teams to relieve
+                        this burden in the shape of infrastructure as code.
+
+                        The Graph Storage team has two distributed database services: Flock and Tflock. Flock stores
+                        user-user relationships like “follows”, “blocks”, “mutes”, etc. Tflock stores tweet-entity
+                        relationships such as likes, retweets, etc. For real-time use cases, these services work but for
+                        analytical purposes, querying them involves a lot of work for they don’t provide rich analytical
+                        APIs like other software such as Neo4j or Janusgraph.
+
+                        Therefore, I was put as an SME to develop a solution for providing a managed offering to such
+                        teams for aforementioned use cases. The problem was fairly open ended: develop an offering that
+                        relieves Product teams while leveraging the current infrastructure we have at Twitter. I drove
+                        this project from POC to Production Readiness Review. I designed an analytical platform for data
+                        teams at Twitter that reduced operation time from days to minutes for data teams.
+                    </p>
+
+                    <p align="center">
+                        <a class="button"
+                            href="https://docs.google.com/document/d/1o-Xwq6cvBLbrsBaHFpPZ5woUt5omMF5lm9TfAL9O7eo/"
+                            target="_blank">View One Pager</a>
+                    </p>
+
+                </article>
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2018 Aviral Srivastava.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+
+</footer!-->
+
+
+    <!-- Load jQuery -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <!-- Load Common JS -->
+    <script src="../../assets/js/common.js"></script>
+
+
+    <!-- Load KaTeX -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+    <script src="../../assets/js/katex.js"></script>
+
+
+
+    <!-- Load Anchor JS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+    <script>
+        anchors.options.visible = 'always';
+        anchors.add('article h2, article h3, article h4, article h5, article h6');
+    </script>
+
+
+    <!-- Include custom icon fonts -->
+    <link rel="stylesheet" href="../../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/academicons.min.css">
+
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-766119790-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+</body>
+
+
+<!-- Mirrored from Aviral26Srivastava.github.io/projects/robofeel/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Sep 2018 19:47:39 GMT -->
+
+</html>
